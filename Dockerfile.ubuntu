@@ -11,6 +11,7 @@ RUN apt-get update && \
       openjdk-11-jre-headless \
       curl \
       python-pip \
+      unzip \
       vim && \
     pip install awscli==${AWS_CLI_VERSION} --upgrade
 
